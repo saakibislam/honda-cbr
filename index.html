@@ -13,226 +13,328 @@
 </head>
 
 <body>
-  <header>
-    <div class="header-bg container d-flex align-items-center">
-      <div>
-        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, nostrum!</p>
-        <h1 class="text-white">Honda CBR 300R</h1>
-        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptatem vero
-          adipisci omnis ex autem blanditiis quasi, iure fugit cum! Nobis cupiditate similique nesciunt sed natus ex ut
-          a delectus.</p>
+  <header class="header-bg">
 
-
-        <!-- Button trigger modal -->
-<button type="button" class="btn btn-lg btn-custom px-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Purchase
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <!-- Navigation Bar  -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav my-3 fs-5">
+            <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+            <a class="nav-link text-white" href="#">Features</a>
+            <a class="nav-link text-white" href="#">News</a>
+            <a class="nav-link text-white" href="#">Reviews</a>
+            <a class="nav-link text-white" href="#">FAQs</a>
+            <button class="btn btn-custom px-4 ms-5 fs-5">Login</button>
+          </div>
+        </div>
       </div>
-      <div class="modal-body">
-        Honda really understand the power of dreams.
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Nearest Shop</button>
-        <button type="button" class="btn btn-primary">Buy Online</button>
+    </nav>
+
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="text-white col-lg-6">
+          <div>
+            <p>Honda has launched the CBR300R overseas.</p>
+            <h1>Honda CBR 300R</h1>
+            <p>If you’ve got a soft spot for sportbike design and Grand Prix stylings, then the 2021 Honda CBR300R is
+              your sweet spot between form and function. It’s narrow, light, and a total blast to ride around town and
+              on twisty back roads.</p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-lg btn-custom px-5 fs-4" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
+              Purchase
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title text-dark" id="exampleModalLabel">Go for a ride.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body text-dark">
+                    Honda really understand the power of dreams.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Nearest Shop</button>
+                    <button type="button" class="btn btn-primary">Buy Online</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img class="img-fluid" src="images/header-bike.png" alt="">
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
-
-      </div>
-      <div>
-        <img src="images/header-bike.png" alt="red-honda-cbr-bike">
-      </div>
-    </div>
   </header>
+  <main>
+    <!-- Featured Bike  -->
+    <section>
+      <div class="container my-5">
+        <h1 class="text-center display-5 fw-bold">Fetured Bikes 2021</h1>
+        <p class="text-center mb-5">Best bike collection</p>
+        <div class="row">
+          <!-- Single Bike  -->
+          <div class="col-lg-4 col-md-6 col-sm-12 gray mb-3 text-center"><img class="w-75" src="images/feature-bike.jpg"
+              alt=""></div>
+          <!-- Single Bike  -->
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3 text-center"><img class="w-75" src="images/feature-bike.jpg"
+              alt="">
+          </div>
+          <!-- Single Bike  -->
+          <div class="col-lg-4 col-md-6 col-sm-12 gray mb-3 text-center"><img class="w-75" src="images/feature-bike.jpg"
+              alt=""></div>
+        </div>
+      </div>
+    </section>
 
-  <!-- Latest Bike  -->
-  <div class="container my-5">
-    <h1 class="text-center display-5 fw-bold">Fetured Bikes 2021</h1>
-    <p class="text-center mb-5">Best bike collection</p>
-    <div class="row">
-      <!-- Single Bike  -->
-      <div class="col-lg-4 col-md-6 col-sm-12 gray"><img class="w-75" src="images/feature-bike.jpg" alt=""></div>
-      <!-- Single Bike  -->
-      <div class="col-lg-4 col-md-6 col-sm-12"><img class="w-75" src="images/feature-bike.jpg" alt=""></div>
-      <!-- Single Bike  -->
-      <div class="col-lg-4 col-md-6 col-sm-12 gray"><img class="w-75" src="images/feature-bike.jpg" alt=""></div>
-    </div>
-  </div>
-  
-  <!-- Latest News  -->
-  <div class="container my-5">
-    <h1 class="text-center display-5 fw-bold mb-5">Latest News</h1>
-    <div class="card-group">
-      <!-- Single Card  -->
-      <div class="card border-0 rounded-3 shadow m-4">
-        <img src="images/bike-1.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-            content. This content is a little bit longer.</p>
-        </div>
-        <div class="card-footer border-0">
-          <button class="btn btn-lg btn-custom px-4">Read more</button>
-        </div>
-      </div>
-      <!-- Single Card  -->
-      <div class="card border-0 shadow m-4">
-        <img src="images/bike-2.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        </div>
-        <div class="card-footer border-0">
-          <button class="btn btn-lg card-btn px-4">Read more</button>
-        </div>
-      </div>
-      <!-- Single Card  -->
-      <div class="card border-0 shadow m-4">
-        <img src="images/bike-3.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-            content. This card has even longer content than the first to show that equal height action.</p>
-        </div>
-        <div class="card-footer border-0">
-          <button class="btn btn-lg card-btn px-4">Read more</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <!-- Happy Clients  -->
-  <div class="container my-5">
-    <h1 class="text-center display-5 fw-bold mb-5">Happy <span class="orange">Clients says</span></h1>
-    <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-4">
-      <!-- Single Card  -->
-      <div class="col">
-        <div class="card align-items-center text-center">
-          <img class="w-25" src="images/user-1.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Slate helps you see how 
-              many more days you need 
-              to work to reach your financial 
-              goal for the month and year.</p>
+    <!-- Latest News  -->
+    <section>
+      <div class="container my-5">
+        <h1 class="text-center display-5 fw-bold mb-5">Latest News</h1>
+        <div class="card-group">
+          <!-- Single Card  -->
+          <div class="card border-0 rounded-3 shadow m-4">
+            <img class="p-3" src="images/bike-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">2021 Aprilia GPR250R</h4>
+              <p class="card-text">At the 2021 Xi’an Motor Expo in China, the Aprilia GPR250R has been launched. The
+                fully-faired motorcycle comes with a host of updates this time around compared to the previous model.
+              </p>
+            </div>
+            <div class="card-footer border-0 bg-white">
+              <button class="btn btn-lg btn-custom px-4">Read more</button>
+            </div>
           </div>
-        </div>
-      </div>
-      <!-- Single Card  -->
-      <div class="col">
-        <div class="card align-items-center text-center">
-          <img class="w-25" src="images/user-2.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Slate helps you see how 
-              many more days you need 
-              to work to reach your financial 
-              goal for the month and year.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Single Card  -->
-      <div class="col">
-        <div class="card align-items-center text-center">
-          <img class="w-25 rounded-circle" src="images/user-3.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Slate helps you see how 
-              many more days you need 
-              to work to reach your financial 
-              goal for the month and year.</p>
-          </div>
-        </div>
-      </div>
-    </div>
 
-  </div>
-  
-  <!-- FAQ  -->
-  <div class="container my-5">
-    <h1 class="text-center display-5 fw-bold mb-5">Frequently Asked <span class="orange">Questions</span></h1>
-    <div class="d-flex justify-content-evenly align-items-center">
-      <div>
-        <img class="h-50" src="images/faq.png" alt="">
+          <!-- Single Card  -->
+
+          <div class="card border-0 rounded-3 shadow m-4">
+            <img class="p-3" src="images/bike-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">CBR300R CTXP</h4>
+              <p class="card-text">It looks perfect and spotless on the left side, but the right profile is a different
+                story. Badly scratched and severely dented, Henning is convinced his Honda was run over by a truck.</p>
+            </div>
+            <div class="card-footer border-0 bg-white">
+              <button class="btn btn-lg card-btn px-4">Read more</button>
+            </div>
+          </div>
+
+
+          <!-- Single Card  -->
+
+          <div class="card border-0 rounded-3 shadow m-4">
+            <img class="p-3" src="images/bike-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Honda NC750X</h4>
+              <p class="card-text">Honda is bringing a number of new bikes to the event, including Gold Wing standard
+                and
+                DCT clutch models and Rebel 1100 standard and DCT clutch models.</p>
+            </div>
+            <div class="card-footer border-0 bg-white">
+              <button class="btn btn-lg card-btn px-4">Read more</button>
+            </div>
+          </div>
+
+        </div>
       </div>
-      <div class=" w-50 accordion" id="accordionExample">
-        <!-- Single accordion  -->
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-              aria-expanded="true" aria-controls="collapseOne">
-              What are the most important things I should
-              know about riding a bike?
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
+    </section>
+
+    <!-- Happy Clients  -->
+    <section>
+      <div class="container my-5">
+        <h1 class="text-center display-5 fw-bold mb-5">Happy <span class="orange">Clients says</span></h1>
+        <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-4">
+          <!-- Single Card  -->
+          <div class="col">
+            <div class="card align-items-center text-center py-4">
+              <img class="w-25" src="images/user-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Eddie Brook</h5>
+                <p class="card-text px-4">Ahh yes, the CBR300R – a lightweight, easy to maneuver, easy to maintain,
+                  fuel-sipping, beginner bike prodigy.</p>
+                <div class="mt-5">
+                  <i class="fas fa-star orange"></i>
+                  <i class="fas fa-star orange"></i>
+                  <i class="fas fa-star orange"></i>
+                  <i class="fas fa-star orange"></i>
+                  <i class="far fa-star orange"></i>
+                </div>
+                <h6 class="text-primary mt-2">Regina Miles</h6>
+                <h6 class="mt-2">Journalist</h6>
+              </div>
+            </div>
+          </div>
+          <!-- Single Card  -->
+          <div class="col">
+            <div class="card align-items-center text-center py-4">
+              <img class="w-25" src="images/user-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ariana Apa</h5>
+                <p class="card-text px-4">Whether or not the CBR300R is the right bike for you depends on your
+                  priorities
+                  and, crucially, your dimensions.</p>
+                <div class="mt-5">
+                  <i class="fas fa-star orange"></i>
+                  <i class="fas fa-star orange"></i>
+                  <i class="fas fa-star orange"></i>
+                  <i class="fas fa-star orange"></i>
+                  <i class="far fa-star orange"></i>
+                </div>
+                <h6 class="text-primary mt-2">Regina Miles</h6>
+                <h6 class="mt-2">Developer</h6>
+              </div>
+            </div>
+          </div>
+          <!-- Single Card  -->
+          <div class="col">
+            <div class="card align-items-center text-center py-4">
+              <img class="w-25 rounded-circle" src="images/user-3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Elizabeth Turner</h5>
+                <p class="card-text px-4">So, it lacks the same get-up-and-go of some larger machines, but it is more
+                  nimble
+                  and athletic in the corners.</p>
+                <div class="mt-5">
+                  <i class="fas fa-star orange"></i>
+                  <i class="fas fa-star orange"></i>
+                  <i class="fas fa-star orange"></i>
+                  <i class="fas fa-star orange"></i>
+                  <i class="far fa-star orange"></i>
+                </div>
+                <h6 class="text-primary mt-2">Regina Miles</h6>
+                <h6 class="mt-2">Dancer</h6>
+              </div>
             </div>
           </div>
         </div>
-        <!-- Single accordion  -->
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              How can I tell if my helmet is old and I need a 
-new one?
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae vel facilis, tempore doloribus illo cumque inventore quos nostrum nobis accusamus, a dolor suscipit voluptatibus distinctio molestias. Libero quibusdam aspernatur eos.
-            </div>
+
+      </div>
+    </section>
+
+    <!-- FAQ  -->
+    <section>
+      <div class="container my-5">
+        <h1 class="text-center display-5 fw-bold mb-5">Frequently Asked <span class="orange">Questions</span></h1>
+        <div class="row">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="images/faq.png" alt="">
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              My bike has been in storage is it safe to ride?
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque laborum temporibus veritatis dignissimos mollitia. Nostrum hic quasi dolorum, aliquid iure fuga voluptas atque nulla ipsa. Sed, ratione laborum! Recusandae, sunt.
-            </div>
-          </div>
-        </div>
-        <!-- Single accordion  -->
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              What rules should I follow when riding my bike?
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga impedit fugiat et praesentium natus autem ipsa. Quasi, impedit. Sapiente quaerat officia amet praesentium, sint deleniti expedita numquam vel voluptatum quos.
+          <div class="col-lg-6">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    What are the most important things I should know about riding a bike?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Safety First! Always obey the rules of the road. Obey all traffic signals,
+                    signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will
+                    help
+                    you be a more focused and legally compliant bike rider.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    How can I tell if my helmet is old and I need a new one?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Safety First! Always obey the rules of the road. Obey all traffic signals,
+                    signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will
+                    help
+                    you be a more focused and legally compliant bike rider.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    My bike has been in storage is it safe to ride?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Safety First! Always obey the rules of the road. Obey all traffic signals,
+                    signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will
+                    help
+                    you be a more focused and legally compliant bike rider.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What rules should I follow when riding my bike?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Safety First! Always obey the rules of the road. Obey all traffic signals,
+                    signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will
+                    help
+                    you be a more focused and legally compliant bike rider.
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </section>
+  </main>
+  <!-- Footer  -->
+  <footer class="footer-bg text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-8">
+          <p><a class="" href="">Downloads</a>
+            <a class="" href="">License</a>
+          </p>
+          <small>&copy;2020 bike. All rights reserved</small>
+        </div>
+        <div class="col-4 justify-content-end">
+          <h5>Get the App</h5>
+          <button class="btn btn-dark text-white d-block mb-2">
+            <h6><span class="mx-2"><i class="fab fa-apple"></i></span>Appstore</h6>
+          </button>
+          <button class="btn btn-dark text-white d-block mb-2">
+            <h6><span class="mx-2"><i class="fab fa-google-play"></i></span>Google Play</h6>
+          </button>
+        </div>
+      </div>
     </div>
-  </div>
-
-  <footer class="footer-bg text-white">
-    <small>&copy;2020 bike. All rights reserved.</small>
-
 
   </footer>
 
+  <!-- Font Awesome  -->
+  <script src="https://kit.fontawesome.com/0c7fe84996.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap JS  -->
   <script src="js/bootstrap.min.js"></script>
 </body>
 
