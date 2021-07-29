@@ -14,14 +14,40 @@
 
 <body>
   <header>
-    <div class="my-bg container d-flex align-items-center">
+    <div class="header-bg container d-flex align-items-center">
       <div>
         <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, nostrum!</p>
         <h1 class="text-white">Honda CBR 300R</h1>
         <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptatem vero
           adipisci omnis ex autem blanditiis quasi, iure fugit cum! Nobis cupiditate similique nesciunt sed natus ex ut
           a delectus.</p>
-        <button class="btn btn-lg btn-primary">Purchase</button>
+
+
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-lg btn-custom px-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Purchase
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Honda really understand the power of dreams.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Nearest Shop</button>
+        <button type="button" class="btn btn-primary">Buy Online</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
       </div>
       <div>
         <img src="images/header-bike.png" alt="red-honda-cbr-bike">
@@ -29,20 +55,26 @@
     </div>
   </header>
 
-  <div class="container">
-    <h1>Fetured Bikes 2021</h1>
-    <p>Best bike collection</p>
+  <!-- Latest Bike  -->
+  <div class="container my-5">
+    <h1 class="text-center display-5 fw-bold">Fetured Bikes 2021</h1>
+    <p class="text-center mb-5">Best bike collection</p>
     <div class="row">
-      <div class="col-lg-4 col-md-6 col-sm-12 gray"><img class="img-fluid" src="images/feature-bike.jpg" alt=""></div>
-      <div class="col-lg-4 col-md-6 col-sm-12"><img class="img-fluid" src="images/feature-bike.jpg" alt=""></div>
-      <div class="col-lg-4 col-md-6 col-sm-12 gray"><img class="img-fluid" src="images/feature-bike.jpg" alt=""></div>
+      <!-- Single Bike  -->
+      <div class="col-lg-4 col-md-6 col-sm-12 gray"><img class="w-75" src="images/feature-bike.jpg" alt=""></div>
+      <!-- Single Bike  -->
+      <div class="col-lg-4 col-md-6 col-sm-12"><img class="w-75" src="images/feature-bike.jpg" alt=""></div>
+      <!-- Single Bike  -->
+      <div class="col-lg-4 col-md-6 col-sm-12 gray"><img class="w-75" src="images/feature-bike.jpg" alt=""></div>
     </div>
   </div>
-
-  <div class="container">
-    <h1>Latest News</h1>
+  
+  <!-- Latest News  -->
+  <div class="container my-5">
+    <h1 class="text-center display-5 fw-bold mb-5">Latest News</h1>
     <div class="card-group">
-      <div class="card border-0 shadow m-4">
+      <!-- Single Card  -->
+      <div class="card border-0 rounded-3 shadow m-4">
         <img src="images/bike-1.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
@@ -50,9 +82,10 @@
             content. This content is a little bit longer.</p>
         </div>
         <div class="card-footer border-0">
-          <button class="btn btn-lg btn-success">Read more</button>
+          <button class="btn btn-lg btn-custom px-4">Read more</button>
         </div>
       </div>
+      <!-- Single Card  -->
       <div class="card border-0 shadow m-4">
         <img src="images/bike-2.png" class="card-img-top" alt="...">
         <div class="card-body">
@@ -60,9 +93,10 @@
           <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
         </div>
         <div class="card-footer border-0">
-          <button class="btn btn-lg btn-success">Read more</button>
+          <button class="btn btn-lg card-btn px-4">Read more</button>
         </div>
       </div>
+      <!-- Single Card  -->
       <div class="card border-0 shadow m-4">
         <img src="images/bike-3.png" class="card-img-top" alt="...">
         <div class="card-body">
@@ -71,55 +105,68 @@
             content. This card has even longer content than the first to show that equal height action.</p>
         </div>
         <div class="card-footer border-0">
-          <button class="btn btn-lg btn-success">Read more</button>
+          <button class="btn btn-lg card-btn px-4">Read more</button>
         </div>
       </div>
     </div>
   </div>
-
-  <div class="container">
+  
+  <!-- Happy Clients  -->
+  <div class="container my-5">
+    <h1 class="text-center display-5 fw-bold mb-5">Happy <span class="orange">Clients says</span></h1>
     <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-4">
+      <!-- Single Card  -->
       <div class="col">
         <div class="card align-items-center text-center">
           <img class="w-25" src="images/user-1.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.</p>
+            <p class="card-text">Slate helps you see how 
+              many more days you need 
+              to work to reach your financial 
+              goal for the month and year.</p>
           </div>
         </div>
       </div>
+      <!-- Single Card  -->
       <div class="col">
         <div class="card align-items-center text-center">
           <img class="w-25" src="images/user-2.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.</p>
+            <p class="card-text">Slate helps you see how 
+              many more days you need 
+              to work to reach your financial 
+              goal for the month and year.</p>
           </div>
         </div>
       </div>
+      <!-- Single Card  -->
       <div class="col">
         <div class="card align-items-center text-center">
           <img class="w-25 rounded-circle" src="images/user-3.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-              content.</p>
+            <p class="card-text">Slate helps you see how 
+              many more days you need 
+              to work to reach your financial 
+              goal for the month and year.</p>
           </div>
         </div>
       </div>
     </div>
 
   </div>
-
-  <div class="container">
-    <h1>Frequently Asked Questions</h1>
-    <div class="d-flex align-items-center">
+  
+  <!-- FAQ  -->
+  <div class="container my-5">
+    <h1 class="text-center display-5 fw-bold mb-5">Frequently Asked <span class="orange">Questions</span></h1>
+    <div class="d-flex justify-content-evenly align-items-center">
       <div>
         <img class="h-50" src="images/faq.png" alt="">
       </div>
-      <div class="accordion" id="accordionExample">
+      <div class=" w-50 accordion" id="accordionExample">
+        <!-- Single accordion  -->
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
@@ -134,6 +181,7 @@
             </div>
           </div>
         </div>
+        <!-- Single accordion  -->
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -161,6 +209,7 @@ new one?
             </div>
           </div>
         </div>
+        <!-- Single accordion  -->
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -178,7 +227,9 @@ new one?
     </div>
   </div>
 
-  <footer>
+  <footer class="footer-bg text-white">
+    <small>&copy;2020 bike. All rights reserved.</small>
+
 
   </footer>
 
